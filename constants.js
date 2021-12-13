@@ -1,4 +1,4 @@
-module.exports = ({type,ext,extSplit,folder}) => [
+module.exports = ({type,ext,extSplit,folder,style}) => [
   "------------------------------",
   `Generating a new ${type}...`,
   "------------------------------",
@@ -17,8 +17,8 @@ module.exports = ({type,ext,extSplit,folder}) => [
   },
   {
     type: "add",
-    path: `src/${type}s/{{pascalCase name}}/{{pascalCase name}}.styles.${extSplit}`,
-    templateFile: `plop-templates/${folder.split('/')[0]}/Component.styles.hbs`,
+    path: `src/${type}s/{{pascalCase name}}/{{pascalCase name}}.${style}`,
+    templateFile: `plop-templates/${folder.split('/')[0]}/Component.hbs`,
   },
   {
     type: "add",

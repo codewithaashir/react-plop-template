@@ -29,7 +29,7 @@ const dynamic_generator =
     ? "screen"
     : "page";
 module.exports = (plop) => {
-  let extSplit = config.extension.includes("x") ? config.extension.split("x")[0] : config.extension;
+  let extSplit = config.extension && config.extension.includes("x") ? config.extension.split("x")[0] : config.extension;
   plopConfig.helpers(plop);
   plop.setGenerator("project", {
     prompts: [
