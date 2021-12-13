@@ -1,13 +1,13 @@
 /* eslint-disable prettier/prettier */
 const fs = require("fs");
 const getConfig = async () => {
-  let data = await fs.readFileSync("config.json", "utf-8");
+  let data = await fs.readFileSync("./config.json", "utf-8");
   data = data && JSON.parse(data.toString());
   return data;
 };
 const saveConfig = async (data) => {
   data = JSON.stringify(data, null, 2);
-  await fs.writeFileSync("config.json", data);
+  await fs.writeFileSync("./config.json", data);
 };
 module.exports = {
   defaultServiceType: 1,

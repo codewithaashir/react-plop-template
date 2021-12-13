@@ -1,4 +1,4 @@
 {
-  "project": "react",
-  "extension": "jsx"
+  "project": "react-native",
+  "extension": "tsx"
 }
