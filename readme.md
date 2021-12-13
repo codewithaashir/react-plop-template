@@ -28,7 +28,7 @@ React Plop Template is "micro-generator package."
 It is a small tool that gives you a simple way to generate your react / react-native components, pages and reducers in a consistent way. 
 ## Installation
 ### 1. Add react plop template to your project
-```
+```sh
 $ npm install --save-dev react-plop-template
 ```
 ## CLI Usage
@@ -43,6 +43,16 @@ Once react-plop-template is installed, and you have created a generator, you are
     },
     ...
 }
+```
+### Add project and extension to react plop template
+```sh
+$ npm run generate project
+```
+```sh
+$ npm run generate project react tsx
+```
+```sh
+$ npm run generate project react-native jsx
 ```
 ### Package includes: - [x]
 [Component Generation] - [x]

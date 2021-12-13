@@ -1,6 +1,6 @@
 {
   "name": "react-plop-template",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Auto generator for components, pages, reducer with it's necessary files",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,10 @@
   },
   "bin": {
     "react-plop-template": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aashir-334/react-plop-template.git"
   },
   "preferGlobal": true,
   "keywords": [
