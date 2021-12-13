@@ -1,0 +1,17 @@
+import { DEFAULT_{{upperCase name}} } from './types';
+
+let intialState = {
+};
+
+
+export default function {{pascalCase name}}Reducer(state = intialState, action) {
+    switch (action.type) {
+        case DEFAULT_{{upperCase name}}:
+            return {
+                ...state,
+                data:action.data,
+            }
+        default:
+            return state;
+    }
+} 

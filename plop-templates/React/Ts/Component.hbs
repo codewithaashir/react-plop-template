@@ -1,0 +1,20 @@
+import React from 'react';
+import './{{pascalCase name}}.css';
+export type Props = {
+  component: string;
+};
+const {{pascalCase name}}: React.FC<Props> = ({component}) => {
+  return <div className="container">{component}</div>;
+};
+
+{{pascalCase name}}.defaultProps = {
+  component: '',
+};
+
+{{pascalCase name}}.propTypes = {
+  component: React.PropTypes.string,
+};
+};
+
+
+export default {{pascalCase name}};

@@ -1,0 +1,15 @@
+import React from 'react';
+import {View} from 'react-native';
+import Styles from './{{pascalCase name}}.styles';
+
+const {{pascalCase name}} = ({component}) => {
+  return <View style={Styles.container}>{component}</View>;
+};
+
+{{pascalCase name}}.defaultProps = {
+  component: {{pascalCase name}},
+};
+
+{{pascalCase name}}.propTypes = {};
+
+export default {{pascalCase name}};

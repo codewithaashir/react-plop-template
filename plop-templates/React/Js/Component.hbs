@@ -1,0 +1,17 @@
+import React from 'react';
+import './{{pascalCase name}}.css';
+const {{pascalCase name}} = ({component}) => {
+  return <div className="container">{component}</div>;
+};
+
+{{pascalCase name}}.defaultProps = {
+  component: {{pascalCase name}},
+};
+
+{{pascalCase name}}.propTypes = {
+  component: React.PropTypes.string,
+};
+};
+
+
+export default {{pascalCase name}};

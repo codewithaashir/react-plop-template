@@ -1,0 +1,18 @@
+import React from 'react';
+import {View} from 'react-native';
+import Styles from './{{pascalCase name}}.styles';
+export type Props = {
+  component: string;
+};
+const {{pascalCase name}}: React.FC<Props> = ({component}) => {
+  return <View style={Styles.container}>{component}</View>;
+};
+
+
+{{pascalCase name}}.defaultProps = {
+  component: '',
+};
+
+{{pascalCase name}}.propTypes = {};
+
+export default {{pascalCase name}};

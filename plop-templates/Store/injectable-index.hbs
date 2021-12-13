@@ -1,0 +1,24 @@
+import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
+
+/* PLOP_INJECT_IMPORT */
+
+import thunk from 'redux-thunk';
+import AsyncStorage from '@react-native-community/async-storage'
+import { persistReducer } from 'redux-persist';
+const AppReducer = combineReducers({
+
+  /* PLOP_IMPORT_USE */
+
+});
+const persistConfig = {
+    key: 'Testapp',
+    storage: AsyncStorage,
+}
+
+const PersistedReducer = persistReducer(persistConfig,AppReducer)
+const store = createStore(
+    PersistedReducer,
+    applyMiddleware(thunk)
+);
+
+export default store;

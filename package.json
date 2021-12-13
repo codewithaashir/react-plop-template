@@ -1,0 +1,32 @@
+{
+  "name": "react-plop-template",
+  "version": "1.0.2",
+  "description": "Auto generator for components, pages, reducer with it's necessary files",
+  "main": "index.js",
+  "scripts": {
+    "start": "plop"
+  },
+  "bin": {
+    "react-plop-template": "./index.js"
+  },
+  "preferGlobal": true,
+  "keywords": [
+    "react",
+    "react native",
+    "plop",
+    "component",
+    "auto",
+    "generator",
+    "reducer",
+    "store",
+    "generate"
+  ],
+  "author": "Aashir Shahid",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "handlebars": "^4.7.7",
+    "path": "^0.12.7",
+    "plop": "^2.7.6"
+  }
+}

@@ -1,0 +1,19 @@
+import Axios from 'axios'; 
+
+const {{pascalCase name}}{{pascalCase type}} ={{#if isParams}} (params:any){{/if}} => {
+{{#switch type}}
+  {{#case 'GET'}}
+    return Axios.get(baseUrl{{#if isParams}}, params{{/if}});
+  {{/case}}
+  {{#case 'PUT'}}
+    return Axios.put(baseUrl{{#if isParams}}, params{{/if}});
+  {{/case}}
+  {{#case 'DELETE'}}
+    return Axios.delete(baseUrl{{#if isParams}}, params{{/if}});
+  {{/case}}
+  {{#case 'POST'}}
+    return Axios.post(baseUrl{{#if isParams}}, params{{/if}});
+  {{/case}}
+{{/switch}}
+} 
+export default {{pascalCase name}}{{pascalCase type}};
