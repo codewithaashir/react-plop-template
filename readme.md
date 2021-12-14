@@ -14,7 +14,7 @@
 </p>
 
 ## Get Started 
-![demo](https://i.imgur.com/LDoV34p.gif)
+![plop demo](https://i.imgur.com/penUFkr.gif)
 
 [![npm](https://img.shields.io/npm/dm/react-plop-template.svg)](https://www.npmjs.com/package/react-plop-template)
 &nbsp;
