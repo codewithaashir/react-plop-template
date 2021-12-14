@@ -1,6 +1,6 @@
 {
   "name": "react-plop-template",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Auto generator for components, pages, reducer with it's necessary files",
   "main": "index.js",
   "scripts": {

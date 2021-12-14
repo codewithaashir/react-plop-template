@@ -14,7 +14,7 @@
 </p>
 
 ## Get Started 
-![react plop template demo](https://res.cloudinary.com/dlyvwrwfu/video/upload/v1639131743/npm%20package%20images/Plop_React_Template_sb9ej4.mp4)
+![react plop template demo](https://res.cloudinary.com/dlyvwrwfu/image/upload/v1639462404/npm%20package%20images/demo-react-plop-template_3_ewgzd1.gif)
 
 [![npm](https://img.shields.io/npm/dm/react-plop-template.svg)](https://www.npmjs.com/package/react-plop-template)
 &nbsp;
@@ -59,9 +59,21 @@ $ npm run generate project react-native jsx
 [Page Generation] - [x]
 [Reducer Generation] - [x]
 ## Generate Component
-![react-plop-template component demo](https://res.cloudinary.com/dlyvwrwfu/image/upload/v1639240353/npm%20package%20images/Untitled_Project_vfhmq9.gif) 
-## Generate Page
-![react-plop-template page demo](https://res.cloudinary.com/dlyvwrwfu/image/upload/v1639240701/npm%20package%20images/Page_Generation_gvsas2.gif) 
+```sh
+$ npm run generate component [component name]
+```
+## Generate page / screen 
+Page is available for react and for react-native project you have to generate a screen
+## Generate Page For React
+```sh
+$ npm run generate page [page name]
+```
+## Generate Screen For React Native
+```sh
+$ npm run generate screen [screen name]
+```
 ## Generate Reducer
-![react-plop-template reducer demo](https://res.cloudinary.com/dlyvwrwfu/image/upload/v1639240974/npm%20package%20images/Reducer-generate_pcgvo8.gif) 
+```sh
+$ npm run generate reducer [reducer name]
+```
 > This documentation is a work in progress. If you have great ideas, I'd love to hear them.
