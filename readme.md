@@ -75,4 +75,6 @@ $ npm run generate screen [screen name]
 ```sh
 $ npm run generate reducer [reducer name]
 ```
+## Demo for React Native
+![react plop template demo](react-plop-template-react-native.gif)
 > This documentation is a work in progress. If you have great ideas, I'd love to hear them.
