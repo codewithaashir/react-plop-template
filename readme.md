@@ -14,7 +14,7 @@
 </p>
 
 ## Get Started 
-![plop demo](https://i.imgur.com/LDoV34p.gif)
+![react plop template demo](react-plop-template-react.gif)
 
 [![npm](https://img.shields.io/npm/dm/react-plop-template.svg)](https://www.npmjs.com/package/react-plop-template)
 &nbsp;
@@ -62,13 +62,12 @@ $ npm run generate project react-native jsx
 ```sh
 $ npm run generate component [component name]
 ```
-## Generate page / screen 
-Page is available for react and for react-native project you have to generate a screen
-## Generate Page For React
+
+## Generate page for React
 ```sh
 $ npm run generate page [page name]
 ```
-## Generate Screen For React Native
+## Generate screen for React Native
 ```sh
 $ npm run generate screen [screen name]
 ```
