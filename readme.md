@@ -26,8 +26,20 @@ That's where react plop template package is coming, Which is a wrapper over plop
 ## What is React Plop Template?
 React Plop Template is "micro-generator package." 
 It is a small tool that gives you a simple way to generate your react / react-native components, pages and reducers in a consistent way. 
-## Installation
+<!-- ## Installation  -->
+## CLI Usage
+You can direct use react-plop-template with npx without installing react-plop-template package into your codebase. 
 ### 1. Add react plop template to your project
+```sh
+$ npx react-plop-template project
+```
+```sh
+$ npx react-plop-template project react tsx
+```
+```sh
+$ npx react-plop-template project react-native jsx
+```
+<!-- ### 1. Add react plop template to your project
 ```sh
 $ npm install --save-dev react-plop-template
 ```
@@ -43,8 +55,8 @@ Once react-plop-template is installed, and you have created a generator, you are
     },
     ...
 }
-```
-### Add project and extension to react plop template
+``` -->
+<!-- ### Add project and extension to react plop template
 ```sh
 $ npm run generate project
 ```
@@ -53,27 +65,26 @@ $ npm run generate project react tsx
 ```
 ```sh
 $ npm run generate project react-native jsx
-```
+``` -->
 ### Package includes: - [x]
 [Component Generation] - [x]
 [Page Generation] - [x]
 [Reducer Generation] - [x]
 ## Generate Component
 ```sh
-$ npm run generate component [component name]
+$ npx react-plop-template component [component name]
 ```
-
 ## Generate page for React
 ```sh
-$ npm run generate page [page name]
+$ npx react-plop-template page [page name]
 ```
 ## Generate screen for React Native
 ```sh
-$ npm run generate screen [screen name]
+$ npx react-plop-template screen [screen name]
 ```
 ## Generate Reducer
 ```sh
-$ npm run generate reducer [reducer name]
+$ npx react-plop-template reducer [reducer name]
 ```
 ## Demo for React Native
 ![react plop template demo](react-plop-template-react-native.gif)

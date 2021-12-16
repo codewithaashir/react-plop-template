@@ -30,7 +30,7 @@ module.exports = ({type,ext,extSplit,folder,style}) => [
     type: "append",
     path: `src/${type}s/index.${extSplit}`,
     pattern: "/* PLOP_INJECT_IMPORT */",
-    template: "import {{pascalCase name}} from './{{pascalCase name}}';",
+    template: "import {{pascalCase name}} from './{{pascalCase name}}/{{pascalCase name}}';",
   },
   {
     type: "append",
