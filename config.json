@@ -1,4 +1,5 @@
 {
-  "project": "react",
-  "extension": "tsx"
+    "project": "react",
+    "extension": "jsx",
+    "isTestSeperate": false
 }
